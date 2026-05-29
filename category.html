@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Categorías - Stylos Madys | Productos Capilares</title>
+  <meta name="description" content="Explora nuestra colección de productos capilares: champús, acondicionadores, mascarillas, aceites y más para el cuidado de tu cabello.">
+  <meta name="keywords" content="cuidado capilar, productos para el cabello, champú, acondicionador, mascarilla capilar, aceites para cabello">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/drift-zoom/drift-basic.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="category-page">
+
+  <header id="header" class="header position-relative">
+    <!-- Header Bar -->
+    <div class="header-bar">
+      <div class="container-fluid container-xl">
+        <div class="d-flex align-items-center justify-content-between">
+
+          <!-- Logo -->
+          <a href="index.html" class="logo d-flex align-items-center">
+            <img src="assets/img/logo.png" alt="Stylos Madys">
+          </a>
+
+          <!-- Search -->
+          <form class="header-search d-none d-lg-flex">
+            <input type="text" class="search-input" placeholder="Buscar productos, categorías, marcas...">
+            <button class="search-btn" type="submit">
+              <i class="bi bi-search"></i>
+              <span class="d-none d-xl-inline">Buscar</span>
+            </button>
+          </form>
+
+          <!-- Quick Links -->
+          <div class="quick-links d-none d-xl-flex align-items-center">
+            <a href="store-locator.html" class="quick-link">
+              <i class="bi bi-geo-alt"></i>
+              <span>Tiendas</span>
+            </a>
+            <a href="help.html" class="quick-link">
+              <i class="bi bi-question-circle"></i>
+              <span>Ayuda</span>
+            </a>
+          </div>
+
+          <!-- Header Actions -->
+          <div class="header-actions d-flex align-items-center">
+
+            <!-- Mobile Search Toggle -->
+            <button class="action-icon mobile-search-toggle d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#mobileSearch" aria-expanded="false" aria-controls="mobileSearch">
+              <i class="bi bi-search"></i>
+            </button>
+
+            <!-- Account -->
+            <div class="dropdown account-dropdown">
+              <button class="action-icon" data-bs-toggle="dropdown" aria-label="Account">
+                <i class="bi bi-person"></i>
+                <span class="action-label d-none d-md-inline">Cuenta</span>
+              </button>
+              <div class="dropdown-menu account-panel">
+                <div class="account-panel-header">
+                  <h6>¡Bienvenido!</h6>
+                  <p>Ingresa para tener la mejor experiencia</p>
+                </div>
+                <div class="account-panel-auth">
+                  <a href="login.html" class="btn btn-signin">Iniciar Sesión</a>
+                  <a href="register.html" class="btn btn-register">Crear Cuenta</a>
+                </div>
+                <div class="account-panel-links">
+                  <a href="orders.html">
+                    <i class="bi bi-box-seam"></i>
+                    <span>Mis Pedidos</span>
+                  </a>
+                  <a href="returns.html">
+                    <i class="bi bi-arrow-return-left"></i>
+                    <span>Devoluciones y Reembolsos</span>
+                  </a>
+                  <a href="help.html">
+                    <i class="bi bi-question-circle"></i>
+                    <span>Centro de Ayuda</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Cart -->
+            <div class="dropdown cart-dropdown">
+              <button class="action-icon" data-bs-toggle="dropdown" aria-label="Cart">
+                <i class="bi bi-cart3"></i>
+                <span class="action-label d-none d-md-inline">Carrito</span>
+                <span class="count-dot">3</span>
+              </button>
+              <div class="dropdown-menu cart-panel">
+                <div class="cart-panel-header">
+                  <h6>Carrito de Compras</h6>
+                  <span class="item-count">3 items</span>
+                </div>
+                <div class="cart-panel-body">
+                  <div class="cart-item">
+                    <div class="cart-item-img">
+                      <img src="assets/img/product/product-1.webp" alt="Producto" class="img-fluid">
+                    </div>
+                    <div class="cart-item-info">
+                      <h6>Champú Reparador</h6>
+                      <span class="cart-item-variant">300ml</span>
+                      <div class="cart-item-meta">
+                        <span class="cart-item-price">$124.00</span>
+                        <span class="cart-item-qty">Cant: 1</span>
+                      </div>
+                    </div>
+                    <button class="cart-item-remove" aria-label="Eliminar">
+                      <i class="bi bi-x-lg"></i>
+                    </button>
+                  </div>
+                  <div class="cart-item">
+                    <div class="cart-item-img">
+                      <img src="assets/img/product/product-2.webp" alt="Producto" class="img-fluid">
+                    </div>
+                    <div class="cart-item-info">
+                      <h6>Acondicionador Hidratante</h6>
+                      <span class="cart-item-variant">300ml</span>
+                      <div class="cart-item-meta">
+                        <span class="cart-item-price">$29.00</span>
+                        <span class="cart-item-qty">Cant: 2</span>
+                      </div>
+                    </div>
+                    <button class="cart-item-remove" aria-label="Eliminar">
+                      <i class="bi bi-x-lg"></i>
+                    </button>
+                  </div>
+                  <div class="cart-item">
+                    <div class="cart-item-img">
+                      <img src="assets/img/product/product-3.webp" alt="Producto" class="img-fluid">
+                    </div>
+                    <div class="cart-item-info">
+                      <h6>Aceite de Argán</h6>
+                      <span class="cart-item-variant">100ml</span>
+                      <div class="cart-item-meta">
+                        <span class="cart-item-price">$96.00</span>
+                        <span class="cart-item-qty">Cant: 1</span>
+                      </div>
+                    </div>
+                    <button class="cart-item-remove" aria-label="Eliminar">
+                      <i class="bi bi-x-lg"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="cart-panel-footer">
+                  <div class="cart-subtotal">
+                    <span>Subtotal</span>
+                    <span class="cart-subtotal-price">$278.00</span>
+                  </div>
+                  <a href="checkout.html" class="btn btn-checkout">Finalizar Compra</a>
+                  <a href="cart.html" class="btn-viewcart">Ver carrito completo →</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Mobile Navigation Toggle -->
+            <i class="mobile-nav-toggle d-xl-none bi bi-list me-0"></i>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <div class="header-nav">
+      <div class="container-fluid container-xl position-relative">
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="about.html">Acerca de</a></li>
+            <li><a href="category.html" class="active">Categorías</a></li>
+            <li><a href="product-details.html">Detalles del Producto</a></li>
+            <li><a href="cart.html">Carrito</a></li>
+            <li><a href="checkout.html">Checkout</a></li>
+
+            <!-- Products Mega Menu 1 -->
+            <li class="products-megamenu-1"><a href="#"><span>Productos</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+
+              <ul class="mobile-megamenu">
+                <li><a href="#">Productos Destacados</a></li>
+                <li><a href="#">Nuevos Lanzamientos</a></li>
+                <li><a href="#">Ofertas</a></li>
+                <li class="dropdown"><a href="#"><span>Cuidado Capilar</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                  <ul>
+                    <li><a href="#">Champús</a></li>
+                    <li><a href="#">Acondicionadores</a></li>
+                    <li><a href="#">Mascarillas</a></li>
+                    <li><a href="#">Aceites y Serums</a></li>
+                    <li><a href="#">Tratamientos</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"><a href="#"><span>Tipo de Cabello</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                  <ul>
+                    <li><a href="#">Cabello Seco</a></li>
+                    <li><a href="#">Cabello Graso</a></li>
+                    <li><a href="#">Cabello Dañado</a></li>
+                    <li><a href="#">Cabello Rizado</a></li>
+                    <li><a href="#">Cabello Teñido</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"><a href="#"><span>Marcas</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                  <ul>
+                    <li><a href="#">Kerastase</a></li>
+                    <li><a href="#">Moroccanoil</a></li>
+                    <li><a href="#">Olaplex</a></li>
+                    <li><a href="#">L'Oréal Professionnel</a></li>
+                    <li><a href="#">Redken</a></li>
+                  </ul>
+                </li>
+              </ul>
+
+              <div class="desktop-megamenu">
+                <div class="megamenu-tabs">
+                  <ul class="nav nav-tabs" id="productMegaMenuTabs" role="tablist">
+                    <li class="nav-item"><button class="nav-link active" id="featured-tab" data-bs-toggle="tab" data-bs-target="#featured-content" type="button">Destacados</button></li>
+                    <li class="nav-item"><button class="nav-link" id="new-tab" data-bs-toggle="tab" data-bs-target="#new-content" type="button">Nuevos</button></li>
+                    <li class="nav-item"><button class="nav-link" id="sale-tab" data-bs-toggle="tab" data-bs-target="#sale-content" type="button">Ofertas</button></li>
+                    <li class="nav-item"><button class="nav-link" id="category-tab" data-bs-toggle="tab" data-bs-target="#category-content" type="button">Categorías</button></li>
+                  </ul>
+                </div>
+                <div class="megamenu-content tab-content">
+                  <div class="tab-pane fade show active" id="featured-content">
+                    <div class="product-grid">
+                      <div class="product-card"><div class="product-image"><img src="assets/img/product/product-1.webp" alt="Champú"></div><div class="product-info"><h5>Champú Reparador</h5><p class="price">$129.99</p><a href="#" class="btn-view">Ver</a></div></div>
+                      <div class="product-card"><div class="product-image"><img src="assets/img/product/product-2.webp" alt="Acondicionador"></div><div class="product-info"><h5>Acondicionador Nutritivo</h5><p class="price">$199.99</p><a href="#" class="btn-view">Ver</a></div></div>
+                      <div class="product-card"><div class="product-image"><img src="assets/img/product/product-3.webp" alt="Aceite"></div><div class="product-info"><h5>Aceite de Argán</h5><p class="price">$89.99</p><a href="#" class="btn-view">Ver</a></div></div>
+                      <div class="product-card"><div class="product-image"><img src="assets/img/product/product-4.webp" alt="Mascarilla"></div><div class="product-info"><h5>Mascarilla Hidratante</h5><p class="price">$79.99</p><a href="#" class="btn-view">Ver</a></div></div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="new-content">
+                    <div class="product-grid">
+                      <div class="product-card"><div class="product-image"><img src="assets/img/product/product-5.webp" alt="Producto Nuevo"><span class="badge-new">Nuevo</span></div><div class="product-info"><h5>Serum Antifrizz</h5><p class="price">$69.99</p><a href="#" class="btn-view">Ver</a></div></div>
+                      <div class="product-card"><div class="product-image"><img src="assets/img/product/product-6.webp" alt="Producto Nuevo"><span class="badge-new">Nuevo</span></div><div class="product-info"><h5>Protector Térmico</h5><p class="price">$39.99</p><a href="#" class="btn-view">Ver</a></div></div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="sale-content">
+                    <div class="product-grid">
+                      <div class="product-card"><div class="product-image"><img src="assets/img/product/product-9.webp" alt="Oferta"><span class="badge-sale">-30%</span></div><div class="product-info"><h5>Pack Duo Champú + Acondicionador</h5><p class="price"><span class="original-price">$89.99</span> $62.99</p><a href="#" class="btn-view">Ver</a></div></div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="category-content">
+                    <div class="category-grid">
+                      <div class="category-column"><h4>Cuidado Capilar</h4><ul><li><a href="#">Champús</a></li><li><a href="#">Acondicionadores</a></li><li><a href="#">Mascarillas</a></li><li><a href="#">Aceites</a></li></ul></div>
+                      <div class="category-column"><h4>Tipo de Cabello</h4><ul><li><a href="#">Seco</a></li><li><a href="#">Graso</a></li><li><a href="#">Dañado</a></li><li><a href="#">Rizado</a></li></ul></div>
+                      <div class="category-column"><h4>Marcas</h4><ul><li><a href="#">Kerastase</a></li><li><a href="#">Moroccanoil</a></li><li><a href="#">Olaplex</a></li><li><a href="#">L'Oréal</a></li></ul></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li><a href="contact.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div class="collapse" id="mobileSearch">
+      <div class="container-fluid container-xl">
+        <form class="mobile-search-form">
+          <div class="search-wrap">
+            <i class="bi bi-search"></i>
+            <input type="text" class="form-control" placeholder="Buscar productos...">
+          </div>
+        </form>
+      </div>
+    </div>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title light-background">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">Categorías</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Inicio</a></li>
+            <li class="current">Categorías</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-4 sidebar">
+
+          <div class="widgets-container">
+
+            <!-- Product Categories Widget - Solo cuidado capilar -->
+            <div class="product-categories-widget widget-item">
+              <h3 class="widget-title">Categorías de Productos</h3>
+              <ul class="category-tree list-unstyled mb-0">
+                <li class="category-item">
+                  <div class="d-flex justify-content-between align-items-center category-header collapsed" data-bs-toggle="collapse" data-bs-target="#categories-champues" aria-expanded="false">
+                    <a href="javascript:void(0)" class="category-link">Champús</a>
+                    <span class="category-toggle"><i class="bi bi-chevron-down"></i><i class="bi bi-chevron-up"></i></span>
+                  </div>
+                  <ul id="categories-champues" class="subcategory-list list-unstyled collapse ps-3 mt-2">
+                    <li><a href="#" class="subcategory-link">Champús Reparadores</a></li>
+                    <li><a href="#" class="subcategory-link">Champús Hidratantes</a></li>
+                    <li><a href="#" class="subcategory-link">Champús Anticaspa</a></li>
+                    <li><a href="#" class="subcategory-link">Champús Volumen</a></li>
+                  </ul>
+                </li>
+                <li class="category-item">
+                  <div class="d-flex justify-content-between align-items-center category-header collapsed" data-bs-toggle="collapse" data-bs-target="#categories-acondicionadores">
+                    <a href="javascript:void(0)" class="category-link">Acondicionadores</a>
+                    <span class="category-toggle"><i class="bi bi-chevron-down"></i><i class="bi bi-chevron-up"></i></span>
+                  </div>
+                  <ul id="categories-acondicionadores" class="subcategory-list list-unstyled collapse ps-3 mt-2">
+                    <li><a href="#" class="subcategory-link">Acondicionadores Hidratantes</a></li>
+                    <li><a href="#" class="subcategory-link">Acondicionadores Reparadores</a></li>
+                    <li><a href="#" class="subcategory-link">Acondicionadores Sin Enjuague</a></li>
+                  </ul>
+                </li>
+                <li class="category-item">
+                  <div class="d-flex justify-content-between align-items-center category-header collapsed" data-bs-toggle="collapse" data-bs-target="#categories-mascarillas">
+                    <a href="javascript:void(0)" class="category-link">Mascarillas y Tratamientos</a>
+                    <span class="category-toggle"><i class="bi bi-chevron-down"></i><i class="bi bi-chevron-up"></i></span>
+                  </div>
+                  <ul id="categories-mascarillas" class="subcategory-list list-unstyled collapse ps-3 mt-2">
+                    <li><a href="#" class="subcategory-link">Mascarillas Nutritivas</a></li>
+                    <li><a href="#" class="subcategory-link">Mascarillas Reparadoras</a></li>
+                    <li><a href="#" class="subcategory-link">Mascarillas para Color</a></li>
+                  </ul>
+                </li>
+                <li class="category-item">
+                  <div class="d-flex justify-content-between align-items-center category-header collapsed" data-bs-toggle="collapse" data-bs-target="#categories-aceites">
+                    <a href="javascript:void(0)" class="category-link">Aceites y Serums</a>
+                    <span class="category-toggle"><i class="bi bi-chevron-down"></i><i class="bi bi-chevron-up"></i></span>
+                  </div>
+                  <ul id="categories-aceites" class="subcategory-list list-unstyled collapse ps-3 mt-2">
+                    <li><a href="#" class="subcategory-link">Aceites Naturales</a></li>
+                    <li><a href="#" class="subcategory-link">Serums Antifrizz</a></li>
+                    <li><a href="#" class="subcategory-link">Aceites para Puntas</a></li>
+                  </ul>
+                </li>
+                <li class="category-item">
+                  <div class="d-flex justify-content-between align-items-center category-header collapsed" data-bs-toggle="collapse" data-bs-target="#categories-herramientas">
+                    <a href="javascript:void(0)" class="category-link">Herramientas y Accesorios</a>
+                    <span class="category-toggle"><i class="bi bi-chevron-down"></i><i class="bi bi-chevron-up"></i></span>
+                  </div>
+                  <ul id="categories-herramientas" class="subcategory-list list-unstyled collapse ps-3 mt-2">
+                    <li><a href="#" class="subcategory-link">Cepillos Profesionales</a></li>
+                    <li><a href="#" class="subcategory-link">Peines</a></li>
+                    <li><a href="#" class="subcategory-link">Gorros y Toallas</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Pricing Range Widget -->
+            <div class="pricing-range-widget widget-item">
+              <h3 class="widget-title">Rango de Precio</h3>
+              <div class="price-range-container">
+                <div class="current-range mb-3">
+                  <span class="min-price">$0</span>
+                  <span class="max-price float-end">$200</span>
+                </div>
+                <div class="range-slider">
+                  <div class="slider-track"></div>
+                  <div class="slider-progress"></div>
+                  <input type="range" class="min-range" min="0" max="200" value="0" step="5">
+                  <input type="range" class="max-range" min="0" max="200" value="100" step="5">
+                </div>
+                <div class="price-inputs mt-3">
+                  <div class="row g-2">
+                    <div class="col-6"><div class="input-group input-group-sm"><span class="input-group-text">$</span><input type="number" class="form-control min-price-input" placeholder="Min" min="0" max="200" value="0" step="5"></div></div>
+                    <div class="col-6"><div class="input-group input-group-sm"><span class="input-group-text">$</span><input type="number" class="form-control max-price-input" placeholder="Max" min="0" max="200" value="100" step="5"></div></div>
+                  </div>
+                </div>
+                <div class="filter-actions mt-3">
+                  <button type="button" class="btn btn-sm btn-primary w-100">Aplicar Filtro</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Filter by Brand - Marcas de cuidado capilar -->
+            <div class="filter-widget widget-item">
+              <h3 class="widget-title">Filtrar por Marca</h3>
+              <div class="brand-search">
+                <input type="text" class="form-control" placeholder="Buscar marcas...">
+                <i class="bi bi-search"></i>
+              </div>
+              <div class="brand-list">
+                <div class="brand-item"><div class="form-check"><input class="form-check-input" type="checkbox" id="brand1"><label class="form-check-label" for="brand1">Kerastase <span class="brand-count">(24)</span></label></div></div>
+                <div class="brand-item"><div class="form-check"><input class="form-check-input" type="checkbox" id="brand2"><label class="form-check-label" for="brand2">Moroccanoil <span class="brand-count">(18)</span></label></div></div>
+                <div class="brand-item"><div class="form-check"><input class="form-check-input" type="checkbox" id="brand3"><label class="form-check-label" for="brand3">Olaplex <span class="brand-count">(12)</span></label></div></div>
+                <div class="brand-item"><div class="form-check"><input class="form-check-input" type="checkbox" id="brand4"><label class="form-check-label" for="brand4">L'Oréal Professionnel <span class="brand-count">(9)</span></label></div></div>
+                <div class="brand-item"><div class="form-check"><input class="form-check-input" type="checkbox" id="brand5"><label class="form-check-label" for="brand5">Redken <span class="brand-count">(7)</span></label></div></div>
+                <div class="brand-item"><div class="form-check"><input class="form-check-input" type="checkbox" id="brand6"><label class="form-check-label" for="brand6">Wella Professionals <span class="brand-count">(6)</span></label></div></div>
+                <div class="brand-item"><div class="form-check"><input class="form-check-input" type="checkbox" id="brand7"><label class="form-check-label" for="brand7">Schwarzkopf <span class="brand-count">(5)</span></label></div></div>
+                <div class="brand-item"><div class="form-check"><input class="form-check-input" type="checkbox" id="brand8"><label class="form-check-label" for="brand8">Davines <span class="brand-count">(4)</span></label></div></div>
+              </div>
+              <div class="brand-actions">
+                <button class="btn btn-sm btn-outline-primary">Aplicar Filtro</button>
+                <button class="btn btn-sm btn-link">Limpiar Todo</button>
+              </div>
+            </div>
+
+            <!-- Filter by Hair Type - Tipo de cabello -->
+            <div class="filter-widget-2 widget-item">
+              <h3 class="widget-title">Filtrar por Tipo de Cabello</h3>
+              <div class="color-filter-content">
+                <div class="color-options">
+                  <div class="form-check color-option"><input class="form-check-input" type="checkbox" value="seco" id="hair-dry"><label class="form-check-label" for="hair-dry"><span class="color-swatch" style="background-color: #e6b87e;" title="Cabello Seco"></span><span class="ms-2">Seco</span></label></div>
+                  <div class="form-check color-option"><input class="form-check-input" type="checkbox" value="graso" id="hair-oily"><label class="form-check-label" for="hair-oily"><span class="color-swatch" style="background-color: #f4c542;" title="Cabello Graso"></span><span class="ms-2">Graso</span></label></div>
+                  <div class="form-check color-option"><input class="form-check-input" type="checkbox" value="daniado" id="hair-damaged"><label class="form-check-label" for="hair-damaged"><span class="color-swatch" style="background-color: #c4a27a;" title="Cabello Dañado"></span><span class="ms-2">Dañado</span></label></div>
+                  <div class="form-check color-option"><input class="form-check-input" type="checkbox" value="rizado" id="hair-curly"><label class="form-check-label" for="hair-curly"><span class="color-swatch" style="background-color: #d4a373;" title="Cabello Rizado"></span><span class="ms-2">Rizado</span></label></div>
+                  <div class="form-check color-option"><input class="form-check-input" type="checkbox" value="teñido" id="hair-colored"><label class="form-check-label" for="hair-colored"><span class="color-swatch" style="background-color: #9b59b6;" title="Cabello Teñido"></span><span class="ms-2">Teñido</span></label></div>
+                </div>
+                <div class="filter-actions mt-3 d-flex gap-2">
+                  <button type="button" class="btn btn-sm btn-outline-secondary flex-grow-1">Limpiar</button>
+                  <button type="button" class="btn btn-sm btn-primary flex-grow-1">Aplicar</button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-lg-8">
+
+          <!-- Category Header Section -->
+          <section id="category-header" class="category-header section">
+            <div class="container section-title" data-aos="fade-up">
+              <h2>Productos Capilares</h2>
+              <p>Descubre nuestra selección de productos profesionales para el cuidado y tratamiento de tu cabello</p>
+            </div>
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+              <div class="search-bar" data-aos="fade-down">
+                <i class="bi bi-search search-icon"></i>
+                <input type="text" class="search-input" id="productSearch" placeholder="¿Qué producto buscas? Champú, mascarilla, aceite..." aria-label="Buscar productos">
+                <button class="search-action" type="button">Buscar</button>
+              </div>
+
+              <div class="toolbar" data-aos="fade-up" data-aos-delay="200">
+                <div class="row align-items-center g-3">
+                  <div class="col-lg-8 col-md-12">
+                    <div class="filter-group">
+                      <div class="filter-dropdown">
+                        <label for="priceRange">Rango de Precio</label>
+                        <select class="form-select" id="priceRange">
+                          <option selected>Todos los Precios</option>
+                          <option>Menos de $25</option>
+                          <option>$25 a $50</option>
+                          <option>$50 a $100</option>
+                          <option>$100 a $150</option>
+                          <option>$150 y más</option>
+                        </select>
+                      </div>
+                      <div class="filter-dropdown">
+                        <label for="sortBy">Ordenar por</label>
+                        <select class="form-select" id="sortBy">
+                          <option selected>Destacados</option>
+                          <option>Precio: Menor a Mayor</option>
+                          <option>Precio: Mayor a Menor</option>
+                          <option>Mejor Valorados</option>
+                          <option>Más Recientes</option>
+                        </select>
+                      </div>
+                      <div class="filter-dropdown">
+                        <label for="itemsPerPage">Mostrar</label>
+                        <select class="form-select" id="itemsPerPage">
+                          <option value="12">12 productos</option>
+                          <option value="24">24 productos</option>
+                          <option value="48">48 productos</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-12">
+                    <div class="toolbar-actions">
+                      <div class="display-toggle">
+                        <button type="button" class="toggle-btn active" data-view="grid"><i class="bi bi-grid-3x3-gap-fill"></i><span>Cuadrícula</span></button>
+                        <button type="button" class="toggle-btn" data-view="list"><i class="bi bi-list-ul"></i><span>Lista</span></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="applied-filters" data-aos="fade-up" data-aos-delay="300">
+                <div class="row align-items-center">
+                  <div class="col-12">
+                    <div class="filters-row">
+                      <span class="filters-label"><i class="bi bi-funnel-fill"></i> Filtrado por:</span>
+                      <div class="chip-list">
+                        <span class="chip">Champús <button class="chip-close"><i class="bi bi-x-lg"></i></button></span>
+                        <span class="chip">$25 a $50 <button class="chip-close"><i class="bi bi-x-lg"></i></button></span>
+                      </div>
+                      <button class="reset-btn"><i class="bi bi-arrow-counterclockwise"></i> Resetear Todo</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Category Product List Section - Productos capilares -->
+          <section id="category-product-list" class="category-product-list section">
+            <div class="container section-title" data-aos="fade-up">
+              <h2>Nuestros Productos</h2>
+              <p>Los mejores productos capilares para cada necesidad</p>
+            </div>
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+              <div class="row g-3 g-lg-4">
+                <!-- Champú Reparador -->
+                <div class="col-6 col-lg-4">
+                  <article class="item-card">
+                    <div class="item-media">
+                      <img src="assets/img/product/product-f-9.webp" class="primary-img img-fluid" alt="Champú Reparador">
+                      <button type="button" class="wishlist-toggle"><i class="bi bi-heart"></i></button>
+                      <div class="quick-add"><button type="button" class="quick-add-btn"><i class="bi bi-bag-plus me-1"></i> Agregar</button></div>
+                    </div>
+                    <div class="item-info">
+                      <span class="item-tag">Champú</span>
+                      <h4 class="item-name"><a href="product-details.html">Shampoo elixir romero</a></h4>
+                      <div class="item-stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i><span class="review-count">(38)</span></div>
+                      <div class="item-bottom"><span class="item-cost">$33.500</span><button type="button" class="cart-icon-btn"><i class="bi bi-cart3"></i></button></div>
+                    </div>
+                  </article>
+                </div>
+                <!-- Acondicionador -->
+                <div class="col-6 col-lg-4">
+                  <article class="item-card">
+                    <div class="item-media">
+                      <img src="assets/img/product/product-m-9.webp" class="primary-img img-fluid" alt="Acondicionador">
+                      <button type="button" class="wishlist-toggle"><i class="bi bi-heart"></i></button>
+                      <span class="item-label label-new">Nuevo</span>
+                      <div class="quick-add"><button type="button" class="quick-add-btn"><i class="bi bi-bag-plus me-1"></i> Agregar</button></div>
+                    </div>
+                    <div class="item-info">
+                      <span class="item-tag">Acondicionador</span>
+                      <h4 class="item-name"><a href="product-details.html">Acondicionador Nutritivo</a></h4>
+                      <div class="item-stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i><span class="review-count">(24)</span></div>
+                      <div class="item-bottom"><span class="item-cost">$42.00</span><button type="button" class="cart-icon-btn"><i class="bi bi-cart3"></i></button></div>
+                    </div>
+                  </article>
+                </div>
+                <!-- Mascarilla -->
+                <div class="col-6 col-lg-4">
+                  <article class="item-card">
+                    <div class="item-media">
+                      <img src="assets/img/product/product-f-11.webp" class="primary-img img-fluid" alt="Mascarilla">
+                      <button type="button" class="wishlist-toggle"><i class="bi bi-heart"></i></button>
+                      <span class="item-label label-sale">-20%</span>
+                      <div class="quick-add"><button type="button" class="quick-add-btn"><i class="bi bi-bag-plus me-1"></i> Agregar</button></div>
+                    </div>
+                    <div class="item-info">
+                      <span class="item-tag">Mascarilla</span>
+                      <h4 class="item-name"><a href="product-details.html">Mascarilla Hidratante</a></h4>
+                      <div class="item-stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><span class="review-count">(61)</span></div>
+                      <div class="item-bottom"><span class="item-cost">$55.00 <del class="was-price">$69.00</del></span><button type="button" class="cart-icon-btn"><i class="bi bi-cart3"></i></button></div>
+                    </div>
+                  </article>
+                </div>
+                <!-- Aceite de Argán -->
+                <div class="col-6 col-lg-4">
+                  <article class="item-card">
+                    <div class="item-media">
+                      <img src="assets/img/product/product-m-11.webp" class="primary-img img-fluid" alt="Aceite">
+                      <button type="button" class="wishlist-toggle"><i class="bi bi-heart"></i></button>
+                      <div class="quick-add"><button type="button" class="quick-add-btn"><i class="bi bi-bag-plus me-1"></i> Agregar</button></div>
+                    </div>
+                    <div class="item-info">
+                      <span class="item-tag">Aceite</span>
+                      <h4 class="item-name"><a href="product-details.html">Aceite de Argán Moroccanoil</a></h4>
+                      <div class="item-stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i><span class="review-count">(45)</span></div>
+                      <div class="item-bottom"><span class="item-cost">$48.00</span><button type="button" class="cart-icon-btn"><i class="bi bi-cart3"></i></button></div>
+                    </div>
+                  </article>
+                </div>
+                <!-- Serum Antifrizz -->
+                <div class="col-6 col-lg-4">
+                  <article class="item-card">
+                    <div class="item-media">
+                      <img src="assets/img/product/product-f-13.webp" class="primary-img img-fluid" alt="Serum">
+                      <button type="button" class="wishlist-toggle"><i class="bi bi-heart"></i></button>
+                      <div class="quick-add"><button type="button" class="quick-add-btn"><i class="bi bi-bag-plus me-1"></i> Agregar</button></div>
+                    </div>
+                    <div class="item-info">
+                      <span class="item-tag">Serum</span>
+                      <h4 class="item-name"><a href="product-details.html">Serum Antifrizz</a></h4>
+                      <div class="item-stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i><span class="review-count">(19)</span></div>
+                      <div class="item-bottom"><span class="item-cost">$35.00</span><button type="button" class="cart-icon-btn"><i class="bi bi-cart3"></i></button></div>
+                    </div>
+                  </article>
+                </div>
+                <!-- Protector Térmico -->
+                <div class="col-6 col-lg-4">
+                  <article class="item-card">
+                    <div class="item-media">
+                      <img src="assets/img/product/product-m-13.webp" class="primary-img img-fluid" alt="Protector">
+                      <button type="button" class="wishlist-toggle"><i class="bi bi-heart"></i></button>
+                      <span class="item-label label-new">Nuevo</span>
+                      <div class="quick-add"><button type="button" class="quick-add-btn"><i class="bi bi-bag-plus me-1"></i> Agregar</button></div>
+                    </div>
+                    <div class="item-info">
+                      <span class="item-tag">Protector Térmico</span>
+                      <h4 class="item-name"><a href="product-details.html">Protector Térmico</a></h4>
+                      <div class="item-stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><span class="review-count">(52)</span></div>
+                      <div class="item-bottom"><span class="item-cost">$28.00</span><button type="button" class="cart-icon-btn"><i class="bi bi-cart3"></i></button></div>
+                    </div>
+                  </article>
+                </div>
+                <!-- Champú Volumen -->
+                <div class="col-6 col-lg-4">
+                  <article class="item-card">
+                    <div class="item-media">
+                      <img src="assets/img/product/product-f-15.webp" class="primary-img img-fluid" alt="Champú Volumen">
+                      <button type="button" class="wishlist-toggle"><i class="bi bi-heart"></i></button>
+                      <div class="quick-add"><button type="button" class="quick-add-btn"><i class="bi bi-bag-plus me-1"></i> Agregar</button></div>
+                    </div>
+                    <div class="item-info">
+                      <span class="item-tag">Champú</span>
+                      <h4 class="item-name"><a href="product-details.html">Champú Volumen</a></h4>
+                      <div class="item-stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i><span class="review-count">(33)</span></div>
+                      <div class="item-bottom"><span class="item-cost">$38.00</span><button type="button" class="cart-icon-btn"><i class="bi bi-cart3"></i></button></div>
+                    </div>
+                  </article>
+                </div>
+                <!-- Tratamiento Nocturno -->
+                <div class="col-6 col-lg-4">
+                  <article class="item-card">
+                    <div class="item-media">
+                      <img src="assets/img/product/product-m-15.webp" class="primary-img img-fluid" alt="Tratamiento">
+                      <button type="button" class="wishlist-toggle"><i class="bi bi-heart"></i></button>
+                      <div class="quick-add"><button type="button" class="quick-add-btn"><i class="bi bi-bag-plus me-1"></i> Agregar</button></div>
+                    </div>
+                    <div class="item-info">
+                      <span class="item-tag">Tratamiento</span>
+                      <h4 class="item-name"><a href="product-details.html">Tratamiento Nocturno</a></h4>
+                      <div class="item-stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i><span class="review-count">(41)</span></div>
+                      <div class="item-bottom"><span class="item-cost">$65.00</span><button type="button" class="cart-icon-btn"><i class="bi bi-cart3"></i></button></div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Category Pagination Section -->
+          <section id="category-pagination" class="category-pagination section">
+            <div class="container">
+              <div class="pagination-wrapper" data-aos="fade-up" data-aos-delay="100">
+                <div class="page-info">Mostrando página <strong>1</strong> de <strong>8</strong></div>
+                <nav aria-label="Navegación de páginas">
+                  <div class="pagination-track">
+                    <a href="#" class="nav-arrow prev"><i class="bi bi-chevron-left"></i></a>
+                    <div class="page-numbers">
+                      <a href="#" class="page-num active">1</a>
+                      <a href="#" class="page-num">2</a>
+                      <a href="#" class="page-num">3</a>
+                      <span class="dots"><i class="bi bi-three-dots"></i></span>
+                      <a href="#" class="page-num">7</a>
+                      <a href="#" class="page-num">8</a>
+                    </div>
+                    <a href="#" class="nav-arrow next"><i class="bi bi-chevron-right"></i></a>
+                  </div>
+                </nav>
+                <div class="jump-to"><span>Ir a página</span><input type="number" min="1" max="8" value="1"><a href="#" class="jump-btn"><i class="bi bi-arrow-return-left"></i></a></div>
+              </div>
+            </div>
+          </section>
+
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+
+    <footer id="footer" class="footer dark-background">
+    <div class="footer-main">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-widget footer-about">
+              <a href="index.html" class="logo">
+                <span class="sitename">Stylos Madys</span>
+              </a>
+              <p>En nuestro centro de salud y cuidado capilar nos enfocamos en revitalizar tu cuero cabelludo mientras disfrutas de una experiencia de relajación única. Cada tratamiento está diseñado para ayudarte a liberar el estrés, mejorar la salud de tu cabello y resaltar tu belleza natural.</p>
+
+              <div class="social-links mt-4">
+                <h5>Conéctate Con Nosotros</h5>
+                <div class="social-icons">
+                  <a href="https://www.facebook.com/nelly.garaylarios" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.instagram.com/stylosmadys/" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                  <a href="https://www.tiktok.com/@dylan34_3?lang=es" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 col-sm-6">
+            <div class="footer-widget">
+              <h4>Tienda</h4>
+              <ul class="footer-links">
+                <li><a href="category.html">✨ Productos</a></li>
+                <li><a href="category.html">🌿 Cuidado Capilar</a></li>
+                <li><a href="category.html">💆‍♀️ Servicios</a></li>
+                <li><a href="category.html">🧴 Nuestra Tienda</a></li>
+              </ul>
+            </div>
+          </div>
+
+          
+
+          <div class="col-lg-2 col-md-6 col-sm-6">
+            <div class="footer-widget">
+              <h4>Soporte</h4>
+              <ul class="footer-links">
+                <li><a href="support.html">💬 Ayuda</a></li>
+                <li><a href="account.html">🚚 Seguimiento</a></li>
+                <li><a href="shiping-info.html">📦 Envíos</a></li>
+                <li><a href="return-policy.html">🔄 Cambios y Garantías</a></li>
+                <li><a href="contact.html">📲 Reserva tu Cita</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-widget">
+              <h4>Información de Contacto</h4>
+              <div class="footer-contact">
+                <div class="contact-item">
+                  <i class="bi bi-geo-alt"></i>
+                  <span>Calle 12 #14-69 - Barrio Higueron</span>
+                </div>
+                <div class="contact-item">
+                  <i class="bi bi-telephone"></i>
+                  <span>+57 310 491 6849</span>
+                </div>
+                <div class="contact-item">
+                  <i class="bi bi-person"></i>
+                  <span>@nellygaraylarios</span>
+                </div>
+                <div class="contact-item">
+                  <i class="bi bi-clock"></i>
+                  <span>Lunes-Viernes: 9am-6pm<br>Sábado: 10am-4pm<br>Domingo: Cerrado</span>
+                </div>
+              </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row gy-3 align-items-center">
+          <div class="col-lg-6 col-md-12">
+            <div class="copyright">
+              <p>© <span>Copyright</span> <strong class="sitename">Stylos Madys</strong>. Todos los derechos reservados.</p>
+            </div>
+            <div class="credits mt-1">
+              <!-- All the links in the footer should remain intact. -->
+              <!-- You can delete the links only if you've purchased the pro version. -->
+              <!-- Licensing information: https://bootstrapmade.com/license/ -->
+              <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+              Diseñado por <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-12">
+            <div class="d-flex flex-wrap justify-content-lg-end justify-content-center align-items-center gap-4">
+              <div class="payment-methods">
+                <div class="payment-icons">
+                  <i class="bi bi-credit-card" aria-label="Tarjeta de Crédito"></i>
+                  <i class="bi bi-paypal" aria-label="PayPal"></i>
+                  <i class="bi bi-apple" aria-label="Apple Pay"></i>
+                  <i class="bi bi-google" aria-label="Google Pay"></i>
+                  <i class="bi bi-shop" aria-label="Shop Pay"></i>
+                  <i class="bi bi-cash" aria-label="Contra Entrega"></i>
+                </div>
+              </div>
+
+              <div class="legal-links">
+                <a href="tos.html">Términos</a>
+                <a href="privacy.html">Privacidad</a>
+                <a href="tos.html">Cookies</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/drift-zoom/Drift.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
